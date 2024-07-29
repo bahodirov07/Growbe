@@ -1,0 +1,30 @@
+.footer__card:nth-of-type(1) {
+    max-width: 270px;
+    width: 100%;
+}
+
+.footer__card-logo {
+    padding-bottom: 40px;
+}
+
+.footer__card-text {
+    padding-bottom: 8px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #666;
+}
+
+.footer__card-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__card-icon {
+    padding: 7px;
+    border-radius: 100%;
+    transition: 0.3s;
+
+    &:hover {
+        background: #f25822;
+    }
+}

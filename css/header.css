@@ -91,6 +91,10 @@
         &.active {
             transform: scaleY(1);
         }
+
+        &.menuOff {
+            transform:  scaleY(0);
+        }
     }
 }
 
